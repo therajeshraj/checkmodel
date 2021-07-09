@@ -7,16 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18294AA326983AD10093B6EB /* ImageClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 18294AA226983AD10093B6EB /* ImageClassifier.mlmodel */; };
+		184C1B4226975C3E00A648AE /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 184C1B4126975C3E00A648AE /* DemoViewController.swift */; };
 		185DB2F32696EF2D000BEE5C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185DB2F22696EF2D000BEE5C /* AppDelegate.swift */; };
 		185DB2F52696EF2D000BEE5C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185DB2F42696EF2D000BEE5C /* SceneDelegate.swift */; };
 		185DB2F72696EF2D000BEE5C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 185DB2F62696EF2D000BEE5C /* ViewController.swift */; };
 		185DB2FA2696EF2E000BEE5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 185DB2F82696EF2E000BEE5C /* Main.storyboard */; };
 		185DB2FC2696EF34000BEE5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 185DB2FB2696EF34000BEE5C /* Assets.xcassets */; };
 		185DB2FF2696EF35000BEE5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 185DB2FD2696EF35000BEE5C /* LaunchScreen.storyboard */; };
-		185DB3082696EFFE000BEE5C /* ImageClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 185DB3072696EFFE000BEE5C /* ImageClassifier.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18294AA226983AD10093B6EB /* ImageClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = ImageClassifier.mlmodel; sourceTree = "<group>"; };
+		184C1B4126975C3E00A648AE /* DemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoViewController.swift; sourceTree = "<group>"; };
 		185DB2EF2696EF2D000BEE5C /* CheckModel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CheckModel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		185DB2F22696EF2D000BEE5C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		185DB2F42696EF2D000BEE5C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -25,7 +28,6 @@
 		185DB2FB2696EF34000BEE5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		185DB2FE2696EF35000BEE5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		185DB3002696EF35000BEE5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		185DB3072696EFFE000BEE5C /* ImageClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = ImageClassifier.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				185DB2FB2696EF34000BEE5C /* Assets.xcassets */,
 				185DB2FD2696EF35000BEE5C /* LaunchScreen.storyboard */,
 				185DB3002696EF35000BEE5C /* Info.plist */,
+				184C1B4126975C3E00A648AE /* DemoViewController.swift */,
 			);
 			path = CheckModel;
 			sourceTree = "<group>";
@@ -73,7 +76,7 @@
 		185DB3062696EF63000BEE5C /* MLModel */ = {
 			isa = PBXGroup;
 			children = (
-				185DB3072696EFFE000BEE5C /* ImageClassifier.mlmodel */,
+				18294AA226983AD10093B6EB /* ImageClassifier.mlmodel */,
 			);
 			path = MLModel;
 			sourceTree = "<group>";
@@ -152,7 +155,8 @@
 				185DB2F72696EF2D000BEE5C /* ViewController.swift in Sources */,
 				185DB2F32696EF2D000BEE5C /* AppDelegate.swift in Sources */,
 				185DB2F52696EF2D000BEE5C /* SceneDelegate.swift in Sources */,
-				185DB3082696EFFE000BEE5C /* ImageClassifier.mlmodel in Sources */,
+				184C1B4226975C3E00A648AE /* DemoViewController.swift in Sources */,
+				18294AA326983AD10093B6EB /* ImageClassifier.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
